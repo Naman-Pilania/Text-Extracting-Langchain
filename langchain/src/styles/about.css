@@ -1,0 +1,61 @@
+/* Styles for the About component */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* List styles */
+ul {
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Strong styles */
+strong {
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
