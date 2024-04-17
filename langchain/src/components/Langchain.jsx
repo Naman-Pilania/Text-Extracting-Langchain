@@ -3,7 +3,7 @@ import { ChatOpenAI } from "@langchain/openai";
 import '../styles/langchain.css';
 
 const model = new ChatOpenAI({
-    openAIApiKey: "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"
+    openAIApiKey: ""
 });
 
 function Langchain({ extractedText }) {
