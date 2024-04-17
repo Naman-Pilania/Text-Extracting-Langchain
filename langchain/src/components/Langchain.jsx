@@ -33,7 +33,7 @@ function Langchain({ extractedText }) {
 
     const handleClosePopup = () => {
         setResponse(''); // Clear response
-        window.location.href = '/upload'; // Redirect to /upload
+        // window.location.href = '/upload'; // Redirect to /upload
     };
 
     return (
